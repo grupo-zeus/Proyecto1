@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<logger class="org.jpos.util.DailyLogListener">
+<log realm="Q2.system" at="Thu Jul 10 18:46:37 CDT 2014.421" lifespan="10ms">
+  <info>
+    Q2 started, deployDir=C:\Users\PMP06008\IdeaProjects\Proyecto1\deploy
+    
+    jPOS 1.9.6 master/a594ca9 (2014-03-22 16:30:04 UYT)
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+jPOS Community Edition, licensed under GNU AGPL v3.0.
+This software is probably not suitable for commercial use.
+Please see http://jpos.org/license for details.
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.9 (Darwin)
+
+iQEcBAEBAgAGBQJMolHDAAoJEOQyeO71nYtFv74H/3OgehDGEy1VXp2U3/GcAobg
+HH2eZjPUz53r38ARPiU3pzm9LwDa3WZgJJaa/b9VrJwKvbPwe9+0kY3gScDE1skT
+ladHt+KHHmGQArEutkzHlpZa73RbroFEIa1qmN6MaDEHGoxZqDh0Sv2cpvOaVYGO
+St8ZaddLBPC17bSjAPWo9sWbvL7FgPFOHhnPmbeux8SLtnfWxXWsgo5hLBanKmO1
+1z+I/w/6DL6ZYZU6bAJUk+eyVVImJqw0x3IEElI07Nh9MC6BA4iJ77ejobj8HI2r
+q9ulRPEqH9NR79619lNKVUkE206dVlXo7xHmJS1QZy5v/GT66xBxyDVfTduPFXk=
+=oP+v
+-----END PGP SIGNATURE-----
+
+  </info>
+</log>
+<log realm="Q2.system" at="Thu Jul 10 18:46:37 CDT 2014.435" lifespan="8ms">
+  <info>
+    deploy: C:\Users\PMP06008\IdeaProjects\Proyecto1\deploy\99_sysmon.xml
+  </info>
+</log>
+<log realm="Q2.system" at="Thu Jul 10 18:46:37 CDT 2014.459" lifespan="23ms">
+  <info>
+    deploy: C:\Users\PMP06008\IdeaProjects\Proyecto1\deploy\prosa-server.xml
+  </info>
+</log>
+<log realm="org.jpos.q2.qbean.SystemMonitor" at="Thu Jul 10 18:46:37 CDT 2014.460">
+  <info>
+    Starting SystemMonitor
+  </info>
+</log>
+<log realm="org.jpos.q2.qbean.SystemMonitor" at="Thu Jul 10 18:46:37 CDT 2014.461">
+  <info>
+               OS: Windows 7
+             host: PMP3010/192.168.35.173
+          version: 1.9.6 (a594ca9)
+         instance: b5062950-c9cb-4180-95d4-e99fce0f6e07
+           uptime: 00:00:00.367
+       processors: 4
+           drift : 0
+    memory(t/u/f): 51/9/41
+          threads: 6
+            Thread[Reference Handler,10,system]
+            Thread[Finalizer,8,system]
+            Thread[Signal Dispatcher,9,system]
+            Thread[Attach Listener,5,system]
+            Thread[Monitor Ctrl-Break,5,main]
+            Thread[Q2-b5062950-c9cb-4180-95d4-e99fce0f6e07,5,main]
+            Thread[DestroyJavaVM,5,main]
+            Thread[Timer-0,5,main]
+            Thread[pool-1-thread-1,5,main]
+            Thread[SystemMonitor,5,main]
+         encoding: UTF-8
+    name-registrar:
+      tspace:default: org.jpos.space.TSpace
+        <keycount>-1</keycount>
+        <gcinfo>0,0</gcinfo>
+
+      logger.Q2.buffered: org.jpos.util.BufferedLogListener
+      logger.Q2: org.jpos.util.Logger
+  </info>
+</log>
+<log realm="prosa-server.server" at="Thu Jul 10 18:46:37 CDT 2014.486">
+  <iso-server>
+    listening on port 2107
+  </iso-server>
+</log>

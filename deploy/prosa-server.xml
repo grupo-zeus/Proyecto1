@@ -1,0 +1,11 @@
+<server class="org.jpos.q2.iso.QServer" logger="Q2" name="prosa-server">
+
+    <attr name="port" type="java.lang.Integer">2107</attr>
+    <channel class="org.zeus.channels.ProsaChannel" loger="Q2">
+        <property name="packager-config" value="cfg/packager/iso87ascii-prosa.xml"/>
+        <property name="debug" value="true"/>
+    </channel>
+
+    <request-listener class="org.zeus.listeners.ProsaListener" logger="Q2"/>
+                                                                                                 
+</server>
